@@ -8,6 +8,7 @@ import { Formik } from "formik";
 import UncontrolledForm from "../ControlledForm/ControlledForm";
 import TestUseId from "../TestUseID/TestUseId";
 import Test from "../TestUseID/Test";
+import RegisterFormikForm from "../Formik/RegisterFormikForm";
 
 const App = () => {
   const [lang, setLang] = useState("uk");
@@ -80,6 +81,7 @@ const App = () => {
       <UncontrolledForm />
       {/* <TestUseId /> */}
       <Test />
+      <RegisterFormikForm />
     </div>
   );
 };
