@@ -9,6 +9,7 @@ import UncontrolledForm from "../ControlledForm/ControlledForm";
 import TestUseId from "../TestUseID/TestUseId";
 import Test from "../TestUseID/Test";
 import RegisterFormikForm from "../Formik/RegisterFormikForm";
+import ApplyForm from "../Formik/ApplyForm";
 
 const App = () => {
   const [lang, setLang] = useState("uk");
@@ -82,6 +83,7 @@ const App = () => {
       {/* <TestUseId /> */}
       <Test />
       <RegisterFormikForm />
+      <ApplyForm />
     </div>
   );
 };
